@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 15px/1.5 arial, sans-serif;
+  background-color: #F4F4F4;
+}
+
+/* Global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  background: #35424A;
+  color: #F4F4F4;
+  min-height: 70px;
+  padding-top: 30px ;
+  border-bottom: 3px solid #E8491D;
+}
+
+header a {
+  text-decoration: none;
+  color: #F4F4F4;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;  
+}
+
+header .highlighted, header .current a{
+  color: #E8491D;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* showcase */
+
+#showcase {
+  min-height: 400px;
+  background: url("/img/showcase.jpg") no-repeat 0 -400px;
+  color: #F4F4F4;
+  text-align: center;
+}
+
+#showcase h1 {
+  font-size: 55px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* Newsletter */
+
+#newsletter {
+  background-color: #35424A;
+  color: #ffffff;
+  padding: 15px;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter [type="email"] {
+  width: 250px;
+  padding: 4px;
+  height: 25px;
+}
+
+.button_1{
+  height: 38px;
+  border: 0;
+  background-color: #E8491D;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input:focus::placeholder {
+  opacity: 0%;
+}
+
+.button_1:hover {
+  background-color: #ffffff;
+  color: #E8491D;
+  cursor: pointer;
+}
+/* Boxes */
+
+#boxes {
+  padding: 20px;
+}
+
+#boxes .box {
+  padding: 10px;
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+
+#boxes .box img {
+  width: 90px;
+  height: auto;
+}
+
+/* footer */
+footer {
+  background: #E8491D;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.cow {
+  margin: 10px 20px;
+}
